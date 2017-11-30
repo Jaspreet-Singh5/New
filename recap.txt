@@ -1,0 +1,32 @@
+add:
+aboutus.php
+complaints.php
+read the guide.php
+
+error in inserting values of security questions with "'" in database from 
+register.php via register forms
+
+security problems
+
+start to check after login also include forgot password
+
+echo "<div style = 'border-radius : 5px;
+										background-color : #f2f2f2;
+										padding : 40px;
+										margin-top : 5%;
+										margin-bottom : 5%;'>
+							
+							<table width = '100%'
+								   border = '1'
+								   bordercolor = 'lightgrey'>
+								
+								<tr>
+									<th>
+										File Name
+									<th>File Size
+									<th>".$_FILES['file-upload']['name']
+									.$_FILES['f1']['name']." is:".$_FILES['f1']['size']."<br>";
+					echo "The type of ".$_FILES['f1']['name']." is:".$_FILES['f1']['type']."<br>";
+				
+
+check embed code of swf in book 

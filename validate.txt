@@ -1,0 +1,33 @@
+// In function validateform below sign up form
+if(currentTab == 1)
+						{
+							var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+							
+							if(document.frm1.email.value.!match(mailformat))
+							{
+								// add an "invalid" class to the field:
+								y[i].className += " invalid";
+								
+								// and set the current valid status to false
+								valid = false;
+							}
+						}
+						
+						<center>
+								<div class = "profile-pic" 
+									 style = "background-image: url('img_avatar2.png')" >
+
+									<input id = "upload" 
+										   class = "file-upload__input" 
+										   type = "file" 
+										   name = "file-upload">
+										
+									<i style = "font-size : 14px" 
+									   class = "fa">&#xf030;</i>
+      
+									<label for = "upload">
+										<span style = "cursor : pointer;">Upload Image</span>
+									</label>
+									
+								</div>
+							</center>
